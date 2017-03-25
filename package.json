@@ -1,7 +1,7 @@
 {
-  "name": "test-test",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "ionic2-seed",
+  "author": "fyrewell",
+  "homepage": "",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -31,7 +31,7 @@
     "zone.js": "0.7.2"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "1.1.4",
+    "@ionic/app-scripts": "1.2.0",
     "@ionic/cli-build-ionic-angular": "0.0.3",
     "@ionic/cli-plugin-cordova": "0.0.9",
     "@types/jasmine": "^2.5.41",
@@ -47,8 +47,8 @@
     "karma-webpack": "^2.0.3",
     "null-loader": "^0.1.1",
     "ts-loader": "^2.0.3",
-    "typescript": "2.0.9"
+    "typescript": "2.1.6"
   },
   "version": "0.0.1",
-  "description": "An Ionic project"
+  "description": "An Ionic2 seed project"
 }

@@ -1,5 +1,7 @@
 {
-  "name": "test-test",
+  "name": "ionic2-seed",
   "app_id": "",
-  "projectTypeId": "ionic-angular"
+  "projectTypeId": "ionic-angular",
+  "typescript": true,
+  "v2": true
 }

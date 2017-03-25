@@ -1,4 +1,4 @@
-Ionic Unit Testing Example
+Ionic2 Seed Project With Unit Testing
 =====================
 
 Based on the awesome [unit testing example](https://github.com/roblouie/unit-testing-demo) from [@roblouie](https://github.com/roblouie/) :thumbsup:
