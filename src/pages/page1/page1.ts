@@ -11,12 +11,13 @@ import { WtfService } from '../../providers/wtf-service';
   templateUrl: 'page1.html'
 })
 export class Page1 {
+  public mock: string;
 
   constructor(public navCtrl: NavController, public wtfService: WtfService) {
     console.log(ENV);
     wtfService.getSomething()
       .subscribe(
-        (res) => { console.log(res); },
+        (res) => { console.log(res); this.mock = JSON.stringify(res); },
         (err) => {}
       );
   }
