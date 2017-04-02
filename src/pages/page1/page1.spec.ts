@@ -4,6 +4,11 @@ import { DebugElement } from '@angular/core';
 import { Page1 } from "./page1";
 import { IonicModule, NavController } from "ionic-angular/index";
 
+import { Http } from '@angular/http';
+
+import { WtfService } from '../../providers/wtf-service';
+import { WtfServiceFactory } from '../../factory/wtf-service-factory';
+
 describe('Page1', function () {
   let de: DebugElement;
   let comp: Page1;
@@ -16,7 +21,8 @@ describe('Page1', function () {
         IonicModule.forRoot(Page1)
       ],
       providers: [
-        NavController
+        NavController,
+        {provide: WtfService, useFactory: WtfServiceFactory, deps:[Http]}
       ]
     });
   }));
