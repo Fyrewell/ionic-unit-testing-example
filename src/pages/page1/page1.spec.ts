@@ -9,7 +9,9 @@ import { Http } from '@angular/http';
 import { WtfService } from '../../providers/wtf-service';
 import { WtfServiceFactory } from '../../factory/wtf-service-factory';
 
-describe('Page1', function () {
+import {} from 'jasmine';
+
+describe('Page1', () => {
   let de: DebugElement;
   let comp: Page1;
   let fixture: ComponentFixture<Page1>;
@@ -35,9 +37,9 @@ describe('Page1', function () {
 
   it('should create component', () => expect(comp).toBeDefined() );
 
-  it('should have expected <h3> text', function(done) {
+  it('should have expected <h3> text', (done) => {
 
-      setTimeout(function() {
+      setTimeout(() => {
         fixture.detectChanges();
         const h3 = de.nativeElement;
         expect(h3.innerText).toMatch(/mock/i,
@@ -48,5 +50,3 @@ describe('Page1', function () {
     }, 2000);
 
   });
-
-});

@@ -6,6 +6,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { MyApp } from './app.component';
 
+import {} from 'jasmine';
+
 describe('MyApp Component', () => {
   let fixture;
   let component;
