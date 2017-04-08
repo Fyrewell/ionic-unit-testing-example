@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 
-import { NavController } from 'ionic-angular';
+import { NavController, IonicPage } from 'ionic-angular';
 
 import { ENV } from '@app/config';
 
 import { WtfService } from '../../providers/wtf-service';
 
+@IonicPage({
+  name: 'page1'
+})
 @Component({
   selector: 'page-page1',
   templateUrl: 'page1.html'

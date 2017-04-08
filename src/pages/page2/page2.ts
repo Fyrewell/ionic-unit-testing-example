@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, IonicPage } from 'ionic-angular';
 
+@IonicPage({
+  name: 'page2'
+})
 @Component({
   selector: 'page-page2',
   templateUrl: 'page2.html'
